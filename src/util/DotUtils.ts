@@ -12,11 +12,11 @@ export enum EnumDotType {
 
 const DotStyle = {
     [EnumDotType.INACTIVE] : {
-        size: 7,
+        size: 6,
         opacity: 0.2,
     },
     [EnumDotType.ACTIVE]:{
-        size: 7,
+        size: 6,
         opacity: 1.0,
     },
     [EnumDotType.MEDIUM]:{
